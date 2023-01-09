@@ -25,16 +25,19 @@ a{
     text-decoration: none;
 }
 .donate_btn{
-    color: #f0f8ff;
-    font-size: 20px;
-    font-weight: 700;
     padding: 20px 30px;
-    border: 0;
+    background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
+    font-family: inherit;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 1s;
+    place-content: center;
     border-radius: 10px;
-    background-image: linear-gradient(60deg,#bd3a23,#ff6347);
 }
-.donate_btn:hover{
-    background-image: linear-gradient(60deg,#ff6347,#bd3a23);
+
+.donate_btn:hover, .donate_btn:focus {
+    background-color: #e91e63;
+    color: #fff;
 }
 #donate_ammount{
     text-align: center;
@@ -66,11 +69,17 @@ a{
     background-color: #ffeeee;
     border: 1px solid #d66551;
     color: #bd3a23;
+    transition: 1s ease;
+}
+#focus_box:hover{
+    background-color: #d66551;
+    color: #38393b;
 }
 #donate_ammount_customize{
     padding: 20px 100px;
     margin-top: 40px;
-    border-bottom: 1px solid #4f5052;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #8e9197;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -78,4 +87,46 @@ a{
 ::placeholder{
     text-align: center;
     color: #5d5e61;
+}
+#plan{
+    text-align: center;
+    margin-top: 150px;
+}
+#plan h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.plan_details{
+    color: #4f5052;
+    font-size: 15px;
+    font-weight: 400;
+}
+.plan_conteinar{
+    display: flex;
+    width: 80%;
+    padding:  3% 10%;
+    justify-content: space-around;
+}
+.plan_box{
+    padding: 20px;
+    margin:20px;
+    text-align: left;
+    box-shadow: 3px 3px 5px #bdc0c5;
+}
+.plan_box h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.plan_box p{
+    font-size: 14px;
+    font-weight: 500;
+}
+#color_1{
+    background-color: #edf5f5;
+}
+#color_2{
+    background-color:#ffeeee ;
+}
+#color_3{
+    background-color:#fff4d6;
 }
