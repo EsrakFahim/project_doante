@@ -180,15 +180,14 @@ a{
     color: #4f5052;
     padding-bottom: 20px;
 }
-.causes_box_img{
-    height: 300px; /* [1.1] Set it as per your need */
+.zoom_effect_img{ /* [1.1] Set it as per your need */
     overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
-.causes_box_img img{
+.zoom_effect_img img{
     width: 100%;
     transition: transform .5s ease;
 }
-.causes_box_img img:hover{
+.zoom_effect_img img:hover{
     transform: scale(1.2);
 }
 .causes_btn{
@@ -208,5 +207,61 @@ a{
 .causes_btn img{
     width: 100%;
 }
-
-
+#our_success{
+    background-image: url(../images/imageedit_2_4427213542.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin-top: 100px;
+}
+.success_list_conteinar{
+    display: flex;
+    width: 80%;
+    padding: 5% 10% 5% 10%;
+    justify-content: space-between;
+    text-align: center;
+}
+.success_list h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.success_list p{
+    font-size: 16px;
+    font-weight: 600;
+}
+#volunteers{
+    text-align: center;
+    margin-top: 100px;
+}
+#volunteers h1{
+    font-size: 40px;
+    color: #c72c11;
+}
+#volunteers p{
+    font-size: 15px;
+    color: #5d5e61;
+}
+.volunteers_conteinar{
+    display: flex;
+    width: 80%;
+    margin: 5% 10% 10% 10% ;
+    gap: 30px;
+    
+}
+.volunteers_box{
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px #b7babe;
+    width: 50%;
+}
+.volunteers_box h3{
+    font-size: 20px;
+    color: coral;
+}
+.voulnteers_box_content{
+    padding: 10px;
+    text-align: center;
+}
+.social_media img{
+    padding: 10px;
+    padding-right: 10px;
+}
