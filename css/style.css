@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: #f7f8fa;
 }
 #header{
     background-image: url(../images/donation13.jpg);
@@ -79,6 +80,7 @@ a{
     padding: 20px 100px;
     margin-top: 40px;
     margin-bottom: 30px;
+    background-color: #f7f8fa;
     border-bottom: 1px solid #8e9197;
     border-top: 0;
     border-left: 0;
@@ -128,5 +130,83 @@ a{
     background-color:#ffeeee ;
 }
 #color_3{
-    background-color:#fff4d6;
+    background-color:#fff4d6; 
 }
+#our_causes{
+    padding-top: 70px;
+}
+#our_causes h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+#our_causes .causes_details{
+    text-align: center;
+    font-size: 15px;
+}
+.causes_conteinar{
+    display: flex;
+    width: 90%;
+    padding: 3% 5% 5% 5%;
+    gap: 20px;
+}
+.donation_money{
+    display: flex;
+    gap: 120px;
+}
+.donation_money span{
+    color: #d32b0e;
+    font-size: 18px;
+    font-weight: 700;
+}
+.causes_box{
+    background-color:#ffffff ;
+    box-shadow: 3px 3px 5px #c7cacf;
+}
+.causes_content{
+    padding: 10px;
+}
+.causes_content h3{
+    font-size: 22px;
+    font-weight: 900;
+    color: #4f5052;
+    transition: transform .5s ease;
+}
+.causes_content h3:hover{
+    color: #38393b;
+}
+.causes_content p{
+    font-size: 15px;
+    color: #4f5052;
+    padding-bottom: 20px;
+}
+.causes_box_img{
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.causes_box_img img{
+    width: 100%;
+    transition: transform .5s ease;
+}
+.causes_box_img img:hover{
+    transform: scale(1.2);
+}
+.causes_btn{
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
+    font-family: inherit;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 1s;
+    place-content: center;
+    border-radius: 10px;
+}
+.causes_btn:hover, .causes_btn:focus {
+    background-color: #e91e63;
+    color: #fff;
+}
+.causes_btn img{
+    width: 100%;
+}
+
+
