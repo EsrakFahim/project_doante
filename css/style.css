@@ -3,6 +3,10 @@ body{
     margin: 0;
     background-color: #f7f8fa;
 }
+::selection {
+    color: #2f2f31;
+    background: #5c6c80;
+}
 #header{
     background-image: url(../images/donation13.jpg);
     background-repeat: no-repeat;
