@@ -339,7 +339,7 @@ input:focus, textarea:focus, select:focus{
     padding: 0px 20px;
 }
 .form_item_conteinar{
-    margin: 20px 10px;
+    margin: 10px;
 }
 .form_item_conteinar label{
     display: block;
@@ -348,12 +348,12 @@ input:focus, textarea:focus, select:focus{
 .input_value_section{
     padding: 10px 20px;
     border: 1px solid #8e9197;
-    border-radius: 10px;
+    background-color: #c5c1c1;
 }
 .slt_value{
     padding: 10px 60px;
     border: 1px solid #8e9197;
-    border-radius: 10px;
+    background-color: #c5c1c1;
 }
 .submit_btn_main{
     width: 90%;
@@ -366,4 +366,23 @@ input:focus, textarea:focus, select:focus{
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+footer{
+    background-color: #1b1818;
+}
+.footer_conteinar{
+    display: flex;
+}
+.footer_conteinar ul{
+    display: flex;
+    font-size: 14px;
+    padding-left: 400px;
+}
+.footer_conteinar p{
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #8e9197;
+}
+.footer_conteinar a{
+    color: #8e9197;
 }
