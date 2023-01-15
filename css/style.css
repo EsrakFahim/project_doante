@@ -31,7 +31,7 @@ body{
 .nav_item{
     padding-top: 15px;
     padding-bottom: 30px;
-    margin-left: 650px;
+    margin-left: 550px;
 }
 
 .nav_item ul{
@@ -47,14 +47,14 @@ li{
     background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
     transition: background-color 1s;
     text-decoration: none;
-    padding: 20px 30px;
-    color: white;
+    padding: 15px 25px;
+    color: #ffffff;
     font-weight: 700;
     border-radius: 10px;
 }
 .donate_btn:hover, .donate_btn:focus {
     background-color: #e91e63;
-    color: #fff;
+    color: #ffffff;
 }
 #header{
     background-image: url(../images/donation13.jpg);
@@ -78,21 +78,6 @@ li{
 }
 a{
     text-decoration: none;
-}
-.donate_btn{
-    padding: 20px 30px;
-    background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
-    font-family: inherit;
-    color: #fff;
-    text-decoration: none;
-    transition: background-color 1s;
-    place-content: center;
-    border-radius: 10px;
-}
-
-.donate_btn:hover, .donate_btn:focus {
-    background-color: #e91e63;
-    color: #fff;
 }
 #donate_ammount{
     text-align: center;
@@ -143,7 +128,7 @@ a{
 input:focus, textarea:focus, select:focus{
     outline: none;
 }
-::placeholder{
+#donate_ammount_customize::placeholder{
     text-align: center;
     color: #5d5e61;
 }
@@ -326,4 +311,36 @@ input:focus, textarea:focus, select:focus{
     display: flex;
     width: 80%;
     margin: 10%;
+}
+/*-----need delet----*/
+.form_conteinar{
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+/*-----need delet----*/
+.form_title{
+    background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
+    padding: 3px;
+    border-radius: 10px 10px 0 0;
+}
+.form_row{
+    display: flex;
+    gap: 30px;
+}
+.form_item_conteinar{
+    margin: 20px 10px;
+}
+.form_item_conteinar label{
+    display: block;
+    color: #38393b;
+}
+.form_item_conteinar input{
+    padding: 10px 20px;
+    border: 1px solid #8e9197;
+    border-radius: 10px;
+}
+.slt_value{
+    padding: 10px 70px;
+    border: 1px solid #8e9197;
+    border-radius: 10px;
 }
