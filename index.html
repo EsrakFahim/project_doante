@@ -23,12 +23,12 @@
                 <li>Donet</li>
                 <li>About</li>
                 <li>Contact</li>
-                <li> <a class="donate_btn" href="#">Donate Us</a> </li>
+                <li> <a class="donate_btn nav_btn_size" href="#">Donate Us</a> </li>
             </ul>
         </div>
     </section>
     <!-- navigation secyion end  -->
-    
+
     <!-- header section start  -->
     <header>
         <section id="header">
@@ -285,9 +285,16 @@
                                     <label for="form_name">Bracnh Name<small>*</small></label>
                                     <select class="slt_value" name="branch_name" id="branch_name" required>
                                         <option value="select_one">Select_one</option>
-                                        <option value="uk">UK</option>
-                                        <option value="usa">USA</option>
-                                        <option value="australia">Australia</option>
+                                        <optgroup label="North America">
+                                            <option value="canada">Canada</option>
+                                            <option value="usa">USA</option>
+                                        </optgroup>
+                                        <optgroup label="Oceania">
+                                            <option value="australia">Australia</option>
+                                        </optgroup>
+                                        <optgroup label="Europe">
+                                            <option value="uk">Uk</option>
+                                        </optgroup>
                                     </select>
                                 </div>
                             </div>
