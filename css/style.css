@@ -4,6 +4,7 @@ body{
     background-color: #f7f8fa;
     overflow: overlay;
 }
+/* scroll bar customize start */
 ::-webkit-scrollbar {
     height: 2px;
     width: 2px;
@@ -21,9 +22,10 @@ body{
     color: #2f2f31;
     background: #5c6c80;
 }
+/* scroll bar customize end */
 .navigation{
     display: flex;
-    position: fixed;
+    position: relative;
     background-color: #00000040;
     color: #526179;
     width: 100%;
@@ -56,15 +58,19 @@ li{
     background-color: #e91e63;
     color: #ffffff;
 }
-#header{
+header{
     background-image: url(../images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    position:relative ;
+}
+:root{
+    --color-h1:#f0f8ff ;  /*-----css custom proparty----*/
 }
 .header_conteinar{
     text-align: center;
-    color: #f0f8ff;
+    color: var(--color-h1);
     padding: 150px 0 150px 0;
 }
 .header_title{
