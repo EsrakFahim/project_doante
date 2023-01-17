@@ -23,9 +23,8 @@ body{
 }
 /* scroll bar customize end */
 nav{
-    position: fixed;
+    position:fixed ;
     width: 100%;
-
 }
 .navigation{
     background-color: #000000;
@@ -66,6 +65,8 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    position: relative;
+    top: 67px;
 }
 :root{
     --color-h1:#f0f8ff ;  /*-----css custom proparty----*/
@@ -117,11 +118,12 @@ a{
     background-color: #ffeeee;
     border: 1px solid #d66551;
     color: #bd3a23;
-    transition: 1s ease;
+    transition:  1s ease;
 }
 #focus_box:hover{
     background-color: #d66551;
     color: #38393b;
+    transform:scale(1.5);
 }
 #donate_ammount_customize{
     padding: 20px 100px;
@@ -384,7 +386,7 @@ footer{
     background-color: #1b1818;
 }
 .footer_conteinar{
-    display: flex;
+    display: flex;;
 }
 .footer_conteinar ul{
     display: flex;
