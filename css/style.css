@@ -3,6 +3,9 @@ body{
     margin: 0;
     background-color: #f7f8fa;
 }
+:root{
+    --color-h1:#f0f8ff ;  /*-----css custom proparty----*/
+}
 /* scroll bar customize start */
 ::-webkit-scrollbar {
     height: 2px;
@@ -22,11 +25,9 @@ body{
     background: #5c6c80;
 }
 /* scroll bar customize end */
-nav{
+.navigation{
     position:fixed ;
     width: 100%;
-}
-.navigation{
     background-color: #000000;
     color: #8f9aad;
 }
@@ -37,7 +38,7 @@ nav{
 
 .nav_item ul{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 li{
     list-style: none;
@@ -61,27 +62,36 @@ li{
     color: #ffffff;
 }
 header{
-    background-image: url(../images/donation13.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     position: relative;
     top: 67px;
 }
-:root{
-    --color-h1:#f0f8ff ;  /*-----css custom proparty----*/
-}
+    /* bg_img opasity set */
+    header::before{
+        content: '';
+        background-image: url(../images/donation13.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.9;
+    } 
 .header_conteinar{
     text-align: center;
+    justify-content: center;
     color: var(--color-h1);
-    padding: 150px 0 150px 0;
+    padding: 150px 0 150px 0; 
 }
 .header_title{
     font-size: 50px;
     font-weight: 700;
 }
 .header_detail{
-    color: #b6bbc9;
+    color: #e2e5ee;
     font-size: medium;
     padding-bottom: 30px;
 }
@@ -124,6 +134,11 @@ a{
     background-color: #d66551;
     color: #38393b;
     transform:scale(1.5);
+} 
+#focus_box:hover + .donate_box_4 {
+    background-color: #fafafa;
+    color: #000000;
+    transform:scale(0.8);
 }
 #donate_ammount_customize{
     padding: 20px 100px;
