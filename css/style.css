@@ -37,27 +37,24 @@ body {
     width: 100%;
     background-color: #000000;
     color: #8f9aad;
+    padding: 5px 0;
+
 }
 
-.nav_item {
-    padding: 5px 0;
+.nav_item span {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
 }
 
 .nav_item ul {
     display: flex;
-    justify-content: center;
-    justify-content: flex-end;
-    padding-right: 10px;
+    justify-content: space-between;
 }
 
-li {
+.navigation li {
     list-style: none;
-    padding-left: 10px;
-    margin-left: 50px;
-}
-
-.nav_btn_size {
-    padding: 10px 20px;
+    padding-right: 60px;
 }
 
 .donate_btn {
@@ -74,6 +71,13 @@ li {
 .donate_btn:focus {
     background-color: #e91e63;
     color: #ffffff;
+}
+
+.fa-right-to-bracket,
+.fa-user-plus {
+    color: #2196f3;
+    font-size: 20px;
+    padding-right: 20px;
 }
 
 header {
